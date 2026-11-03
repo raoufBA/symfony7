@@ -20,8 +20,9 @@
     <div class="example-wrapper">
         <h1>New Editor ✅</h1>
         {{ form_start(form) }}
+        {{ form_errors(form) }}
         {{ form_widget(form) }}
-        <buton type="sumbit" class="btn btn-primary">Submit</buton>
+        <input type="submit" class="btn btn-primary" value="Envoyer">
         {{ form_end(form) }}
 
     </div>
